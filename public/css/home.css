@@ -1,0 +1,45 @@
+body {
+    /* background: linear-gradient(to right, rgb(206, 121, 206), rgb(66, 66, 236)); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf38kvcD2yCpCY6U30NC_CINBzpcN4Xr1t6A&usqp=CAU");
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border-style: dotted;
+    opacity: 0.7;
+    padding: 5%;
+    font-size: 4rem;
+}
+
+.container {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200%;
+    max-width: 300px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: xx-large;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top-style: double;
+    color:white;
+    font-weight: bolder;
+}

@@ -3,16 +3,21 @@
 <head>
   <meta charset=utf-8>
   <title>Yodlr Registration Portal</title>
-  <link rel="stylesheet" type="text/css" href="public/css/signup.css">
+  <link rel="stylesheet" type="text/css" href="/css/signup.css">
 </head>
 <body>
+  <div class="title">
   <h1>Yodlr Registration Portal</h1>
-  <form id="signup-form">
+  </div>
+  <hr>
+  <br>
+  <br>
+  <form id="signup-form" method="POST">
     <label>First Name:</label>
-    <input type="text" name="first_name">
+    <input type="text" name="firstName">
   </br>
     <label>Last Name:</label>
-    <input type="text" name="last_name">
+    <input type="text" name="lastName">
   </br>
     <label>Email:</label>
     <input type="email" name="email">
@@ -20,12 +25,15 @@
   <label>Password:</label>
     <input type="password" name="password">
     <br>
-
+    <div class="button-group">
     <button type="submit">Submit</button>
+    <a href="/"> Go Back Home</a>
+    </div>
   </form>
-  <p>
-    <a href="/admin.html">Admin Page</a>
-  </p>
+
 </body>
-<script src="form.js"></script>
+<footer>
+  <p>&copy; 2023 Yodlr. All rights reserved.</p>
+</footer>
+<script src="/form.js"></script>
 </html>

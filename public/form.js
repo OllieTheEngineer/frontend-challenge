@@ -15,7 +15,7 @@ form.addEventListener('submit', async(evt)=> {
     const formData = new FormData(form);
     const user = createUser(formData);
 
-    const res = await fetch('/', {
+    const res = await fetch('/users', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -26,5 +26,3 @@ form.addEventListener('submit', async(evt)=> {
     const data = await res.json();
     console.log(data);
 });
-
-export const newUser = createUser;

@@ -1,8 +1,85 @@
 body {
-    background-image: url('https://tse1.mm.bing.net/th?id=OIP.8HmA1rfNtWVeLRnPTgtS3wHaFj&pid=Api&P=0');
-    background-color: black;
+    /* background-image: url('https://tse1.mm.bing.net/th?id=OIP.8HmA1rfNtWVeLRnPTgtS3wHaFj&pid=Api&P=0'); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpEd4pHlkPIwWbqsep-GPUHv_fWAdZvGXO1g&usqp=CAU");
+    background-size: cover;
 }
 
 h1 {
-    color: blue;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    opacity: 0.7;
+    padding: 2%;
+    font-size: 4rem;
+}
+
+.title {
+    -webkit-box-reflect: below 0px linear gradient(to bottom, rgba(0,0,0,0,0), rgba(0,0,0,0,4));
+}
+
+form {
+    box-sizing: border-box;
+    border-radius: 10%;
+    background: rgb(187, 206, 231);
+    opacity: 0.7;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+
+input {
+    padding: 3%;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+}
+
+button {
+    background: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+a {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    font-size: small;
+}
+
+a:hover {
+    background-color: blue;
+    color: white; 
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top-style: double;
+    color: white;
 }

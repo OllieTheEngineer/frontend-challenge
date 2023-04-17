@@ -3,7 +3,6 @@ const router = express.Router();
 const _ = require('lodash');
 const logger = require('../lib/logger');
 const log = logger();
-const form = require('./form');
 
 const users = require('../init_data.json').data;
 const curId = _.size(users);
@@ -14,7 +13,7 @@ router.get('/', function(req, res) {
 });
 
 /* Create a new user */
-router.post('/signup', function(req, res) {
+router.post('/', function(req, res) {
   const user = form.createUser(req.body);
   user.id = curId++;
   if (!user.state) {
