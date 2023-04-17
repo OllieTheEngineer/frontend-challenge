@@ -24,5 +24,6 @@ form.addEventListener('submit', async(evt)=> {
     });
 
     const data = await res.json();
+    alert("You have successfully registered!")
     console.log(data);
 });

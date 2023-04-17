@@ -3,8 +3,29 @@
 <head>
   <meta charset=utf-8>
   <title>Yodlr Admin Page</title>
+  <link rel="stylesheet" type="text/css" href="/css/admin.css">
 </head>
 <body>
-  List user data here
+  <h1> Client List </h1>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>email</th>
+        <th>State</th>
+      </tr>
+    </thead>
+    <tbody id="user-list">
+    </tbody>
+  </table>
+  <br>
+  <a href="/"> Go Home</a>
 </body>
+<footer>
+  <p>&copy; 2023 Yodlr. All rights reserved.</p>
+</footer>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="/admin.js"></script>
 </html>
